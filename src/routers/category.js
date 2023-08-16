@@ -4,7 +4,6 @@ const router = new express.Router()
 
 router.post('/categories', async (req, res) => {
 
-    console.log(req.body)
     const category = new Category(req.body)
 
     try {
