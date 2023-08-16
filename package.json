@@ -1,0 +1,29 @@
+{
+  "name": "inventory-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "admin-bro": "^4.0.1",
+    "admin-bro-expressjs": "^2.1.1",
+    "admin-bro-mongoose": "^0.5.2",
+    "bson": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.16.4",
+    "express-session": "^1.17.3",
+    "mongodb": "5.7",
+    "mongoose": "^7.4.0",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.2"
+  }
+}
